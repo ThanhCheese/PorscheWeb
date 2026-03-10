@@ -1,0 +1,102 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#ffffff;
+}
+.home-btn{
+display:inline-block;
+margin-left:20px;
+margin-top:20px;
+padding:12px 20px;
+background:#312f2f;
+color:white;
+text-decoration:none;
+}
+
+.home-btn:hover{
+background:#555;
+}
+.specs{
+width:100%;
+margin:auto;
+padding:40px 0;
+}
+
+h1{
+text-align:center;
+margin-bottom:40px;
+}
+
+.container{
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.car{
+width:50%;
+position:relative;
+}
+
+.car img{
+width:100%;
+height: auto;
+}
+
+
+
+.height{font-size:18px;
+color:#555;
+margin-top:1px;
+font-size: 15px;
+margin-left: 5px;}
+
+
+.wheelbase{font-size:18px;
+color:#555;
+margin-top:1px;
+font-size: 15px;
+margin-left: 5px;}
+
+.length{font-size:18px;
+color:#555;
+margin-top:1px;
+margin-left: 5px;
+font-size: 15px;}
+
+.info{
+width:45%;
+margin-right: 50px;
+}
+
+.row{
+display:flex;
+justify-content:space-between;
+padding:12px 0;
+border-bottom:1px solid #ddd;
+font-size:15px;
+}
+
+.price span:last-child{
+font-weight:bold;
+
+}
+
+.note{
+font-size:13px;
+color:#555;
+margin-top:15px;
+}
+
+button{
+margin-top:20px;
+padding:12px 20px;
+background:#333;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+button:hover{
+background:black;
+}

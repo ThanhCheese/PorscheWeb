@@ -77,7 +77,7 @@ header{
   padding: 5px;
   margin: 0;
   border-radius: 10px;
-  min-width: 150px;
+  width: 135%;
   text-align: center;
 }
 
@@ -115,7 +115,7 @@ header, .menu {
 .carpreview p {
   margin: 5px;
   font-size: 12px;
-  color: #333;
+  color: #000000;
 }
 
 .submenu li:hover .carpreview {
@@ -207,6 +207,11 @@ header, .menu {
   max-width: 1200px;
   margin: auto;
   
+}
+.show a
+{
+    text-decoration: none;
+    color: black;
 }
 
 .car {
