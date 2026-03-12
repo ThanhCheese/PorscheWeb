@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+.logo h1 {
+  margin: 0;
+  padding: 0;
+}
+.logo img {
+  width: 40px;
+  height: auto;
+}
+
+/* MENU */
+.menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  
+}
+.menu li a {
+  display: block;
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.menu li a:hover {
+  background-color: rgb(205, 205, 205);
+  
+}
+.menu li {
+  position: relative;
+  margin-right: 5px;
+}
+
+.divider {
+  height: 2px;
+  background: rgb(219,214,214);
+  margin: 20px 10px;
+  border-radius: 2px;
+}
+
+section {
+  display: flex;            
+  justify-content: space-between; 
+  align-items: flex-start;    
+  gap: 40px;                 
+  padding: 40px;
+  margin-top: 150px;
+  
+}
+
+.formbox {
+  flex: 1;                    
+  background-color: #f9f9f9;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.formbox h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formbox input,
+.formbox select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.formbox button {
+  width: 100%;
+  padding: 12px;
+  background-color: #d50000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  
+}
+.formbox button:hover{
+    background-color: #b30303;
+}
+
+.banner {
+  flex: 1;                   
+  display: flex;
+    
+}
+
+.banner img {
+  width: 100%;               
+  height: auto;
+  border-radius: 8px;
+}
+footer {
+  text-align: left;
+  padding: 20px;
+  background: #f1f1f1;
+}

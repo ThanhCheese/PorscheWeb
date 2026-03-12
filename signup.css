@@ -89,6 +89,7 @@ margin-bottom:30px;
 
 width:100%;
 
+
 padding:12px;
 
 margin:10px 0;
@@ -129,8 +130,3 @@ transition:0.3s;
 background:#900;
 }
 
-.note{
-margin-top:20px;
-font-size:14px;
-color:#666;
-}
